@@ -1,139 +1,227 @@
 ---
-import Layout from '../layouts/Layout.astro';
+import Layout from "../layouts/Layout.astro";
 ---
 
 <Layout>
-	<main class="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50">
-		<!-- Navigation -->
-		<nav class="bg-white/80 backdrop-blur-md sticky top-0 z-50 border-b border-gray-200">
-			<div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-				<div class="flex justify-between items-center h-16">
-					<a href="/" class="text-2xl font-bold text-gray-800">Tu Nombre</a>
-					<div class="hidden md:flex space-x-8">
-						<a href="/" class="text-gray-600 hover:text-gray-900 transition-colors">Inicio</a>
-						<a href="/about" class="text-blue-600 font-medium">Sobre Mí</a>
-						<a href="/projects" class="text-gray-600 hover:text-gray-900 transition-colors">Proyectos</a>
-						<a href="/contact" class="text-gray-600 hover:text-gray-900 transition-colors">Contacto</a>
-					</div>
-				</div>
-			</div>
-		</nav>
+  <main class="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50">
+    <!-- Navigation -->
+    <nav
+      class="bg-white/80 backdrop-blur-md sticky top-0 z-50 border-b border-gray-200"
+    >
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex justify-between items-center h-16">
+          <a href="/" class="text-2xl font-bold text-gray-800"
+            >Cristian Carrizo</a
+          >
+          <div class="hidden md:flex space-x-8">
+            <a
+              href="/"
+              class="text-gray-600 hover:text-gray-900 transition-colors"
+              >Inicio</a
+            >
+            <a href="/about" class="text-blue-600 font-medium">Sobre Mí</a>
+            <a
+              href="/projects"
+              class="text-gray-600 hover:text-gray-900 transition-colors"
+              >Proyectos</a
+            >
+            <a
+              href="/contact"
+              class="text-gray-600 hover:text-gray-900 transition-colors"
+              >Contacto</a
+            >
+          </div>
+        </div>
+      </div>
+    </nav>
 
-		<div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-			<!-- Hero Section -->
-			<div class="text-center mb-16">
-				<h1 class="text-4xl md:text-5xl font-bold text-gray-800 mb-6">
-					Sobre Mí
-				</h1>
-				<p class="text-xl text-gray-600 max-w-2xl mx-auto">
-					Desarrollador apasionado por crear experiencias digitales excepcionales
-				</p>
-			</div>
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+      <!-- Hero Section -->
+      <div class="text-center mb-16">
+        <h1 class="text-4xl md:text-5xl font-bold text-gray-800 mb-6">
+          Sobre Mí
+        </h1>
+        <p class="text-xl text-gray-600 max-w-2xl mx-auto">
+          Soy un desarrollador training en constante aprendizaje, enfocado en
+          desarrollo web y gestión de proyectos. Me apasiona crear soluciones
+          eficientes y contribuir al éxito de los equipos con los que colaboro.
+          Disfruto enfrentar desafíos que me permitan crecer profesionalmente.
+        </p>
+      </div>
 
-			<!-- About Content -->
-			<div class="grid md:grid-cols-2 gap-12 mb-16">
-				<!-- Bio -->
-				<div>
-					<h2 class="text-2xl font-bold text-gray-800 mb-6">Mi Historia</h2>
-					<div class="space-y-4 text-gray-600">
-						<p>
-							¡Hola! Soy un desarrollador web apasionado con experiencia en crear 
-							soluciones digitales innovadoras. Me especializo en desarrollo frontend 
-							y backend, siempre buscando las mejores prácticas y tecnologías.
-						</p>
-						<p>
-							Con más de X años de experiencia en la industria, he trabajado en 
-							proyectos diversos que van desde aplicaciones web hasta sistemas 
-							complejos de gestión.
-						</p>
-						<p>
-							Me encanta aprender nuevas tecnologías y compartir conocimiento 
-							con la comunidad de desarrolladores.
-						</p>
-					</div>
-				</div>
+      <!-- Experiencia Laboral -->
+      <div class="mb-16">
+        <h2 class="text-2xl font-bold text-gray-800 mb-8 text-center">
+          Experiencia Laboral
+        </h2>
+        <div class="space-y-8">
+          <div class="flex gap-6">
+            <div
+              class="flex-shrink-0 w-12 h-12 bg-blue-500 rounded-full flex items-center justify-center text-white font-bold"
+            >
+              2024
+            </div>
+            <div>
+              <h3 class="text-xl font-semibold text-gray-800">
+                Desarrollador WordPress Jr.
+              </h3>
+              <p class="text-blue-600 font-medium">Grupos Nods – Freelance</p>
+              <ul class="list-disc list-inside text-gray-600 mt-2 space-y-1">
+                <li>
+                  Diseño y mantenimiento de sitios web, landings y blogs
+                  adaptables a distintos dispositivos.
+                </li>
+                <li>
+                  Desarrollo de funcionalidades a medida mediante plugins
+                  personalizados.
+                </li>
+                <li>
+                  Gestión técnica de plataformas: actualizaciones, respaldos,
+                  rendimiento y seguridad.
+                </li>
+                <li>
+                  Apoyo al equipo SEO y colaboración en la mejora de métricas
+                  clave.
+                </li>
+                <li>
+                  Pruebas de compatibilidad y documentación de procesos para
+                  facilitar el trabajo en equipo.
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="flex gap-6">
+            <div
+              class="flex-shrink-0 w-12 h-12 bg-blue-500 rounded-full flex items-center justify-center text-white font-bold"
+            >
+              2023
+            </div>
+            <div>
+              <h3 class="text-xl font-semibold text-gray-800">
+                Proyectos personales
+              </h3>
+              <ul class="list-disc list-inside text-gray-600 mt-2 space-y-1">
+                <li>
+                  Creé y gestioné varios proyectos utilizando HTML, CSS,
+                  JavaScript, PHP, SQL, SASS, y Git para control de versiones.
+                </li>
+                <li>
+                  Enfoque en interfaces intuitivas, optimización para
+                  dispositivos móviles y desarrollo de funcionalidades
+                  dinámicas.
+                </li>
+                <li>
+                  Ver mis proyectos en <a
+                    href="https://github.com/Crisca-cyver"
+                    class="text-blue-600 hover:underline"
+                    target="_blank">github.com/Crisca-cyver</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
 
-				<!-- Skills -->
-				<div>
-					<h2 class="text-2xl font-bold text-gray-800 mb-6">Habilidades</h2>
-					<div class="space-y-4">
-						<div>
-							<h3 class="font-semibold text-gray-800 mb-2">Frontend</h3>
-							<div class="flex flex-wrap gap-2">
-								<span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">HTML5</span>
-								<span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">CSS3</span>
-								<span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">JavaScript</span>
-								<span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">React</span>
-								<span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">Vue.js</span>
-								<span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">Tailwind CSS</span>
-							</div>
-						</div>
-						<div>
-							<h3 class="font-semibold text-gray-800 mb-2">Backend</h3>
-							<div class="flex flex-wrap gap-2">
-								<span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">Node.js</span>
-								<span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">Python</span>
-								<span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">PHP</span>
-								<span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">MySQL</span>
-								<span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">MongoDB</span>
-							</div>
-						</div>
-						<div>
-							<h3 class="font-semibold text-gray-800 mb-2">Herramientas</h3>
-							<div class="flex flex-wrap gap-2">
-								<span class="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm">Git</span>
-								<span class="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm">Docker</span>
-								<span class="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm">AWS</span>
-								<span class="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm">Figma</span>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
+      <!-- Habilidades e Idiomas -->
+      <div class="grid md:grid-cols-2 gap-12 mb-16">
+        <div>
+          <h2 class="text-2xl font-bold text-gray-800 mb-6">Habilidades</h2>
+          <div class="flex flex-wrap gap-2">
+            <span
+              class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm"
+              >Trabajo en equipo</span
+            >
+            <span
+              class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm"
+              >Responsable</span
+            >
+            <span
+              class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm"
+              >Trello</span
+            >
+            <span
+              class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm"
+              >Jira</span
+            >
+            <span
+              class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm"
+              >HTML</span
+            >
+            <span
+              class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm"
+              >CSS</span
+            >
+            <span
+              class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm"
+              >Asana</span
+            >
+            <span
+              class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm"
+              >PHP</span
+            >
+            <span
+              class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm"
+              >SQL</span
+            >
+            <span
+              class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm"
+              >Responsive</span
+            >
+            <span
+              class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm"
+              >Javascript</span
+            >
+            <span
+              class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm"
+              >Git</span
+            >
+          </div>
+        </div>
+        <div>
+          <h2 class="text-2xl font-bold text-gray-800 mb-6">Idiomas</h2>
+          <ul class="space-y-2">
+            <li><span class="font-semibold">Español:</span> 100%</li>
+            <li><span class="font-semibold">Inglés:</span> 50%</li>
+          </ul>
+        </div>
+      </div>
 
-			<!-- Experience Timeline -->
-			<div class="mb-16">
-				<h2 class="text-2xl font-bold text-gray-800 mb-8 text-center">Experiencia</h2>
-				<div class="space-y-8">
-					<div class="flex gap-6">
-						<div class="flex-shrink-0 w-12 h-12 bg-blue-500 rounded-full flex items-center justify-center text-white font-bold">
-							2023
-						</div>
-						<div>
-							<h3 class="text-xl font-semibold text-gray-800">Desarrollador Senior</h3>
-							<p class="text-blue-600 font-medium">Empresa Actual</p>
-							<p class="text-gray-600 mt-2">
-								Liderando el desarrollo de aplicaciones web escalables y mentoría 
-								para desarrolladores junior.
-							</p>
-						</div>
-					</div>
-					<div class="flex gap-6">
-						<div class="flex-shrink-0 w-12 h-12 bg-blue-500 rounded-full flex items-center justify-center text-white font-bold">
-							2021
-						</div>
-						<div>
-							<h3 class="text-xl font-semibold text-gray-800">Desarrollador Full Stack</h3>
-							<p class="text-blue-600 font-medium">Empresa Anterior</p>
-							<p class="text-gray-600 mt-2">
-								Desarrollo de aplicaciones web completas usando tecnologías modernas.
-							</p>
-						</div>
-					</div>
-					<div class="flex gap-6">
-						<div class="flex-shrink-0 w-12 h-12 bg-blue-500 rounded-full flex items-center justify-center text-white font-bold">
-							2019
-						</div>
-						<div>
-							<h3 class="text-xl font-semibold text-gray-800">Desarrollador Junior</h3>
-							<p class="text-blue-600 font-medium">Primera Empresa</p>
-							<p class="text-gray-600 mt-2">
-								Inicio en el desarrollo web, aprendiendo las mejores prácticas.
-							</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</main>
-</Layout> 
+      <!-- Formación Académica -->
+      <div class="mb-16">
+        <h2 class="text-2xl font-bold text-gray-800 mb-8 text-center">
+          Formación Académica
+        </h2>
+        <div class="space-y-8">
+          <div>
+            <h3 class="text-xl font-semibold text-gray-800 mb-2">
+              Técnico Superior en Programación <span
+                class="text-gray-500 text-base">(En curso)</span>
+            </h3>
+            <p class="text-gray-600">Teclab Servicios Informáticos</p>
+          </div>
+          <div>
+            <h3 class="text-xl font-semibold text-gray-800 mb-2">
+              Diplomatura en Programación Web FullStack <span
+                class="text-gray-500 text-base">(2023–2024)</span>
+            </h3>
+            <p class="text-gray-600">UTN Facultad Regional Resistencia</p>
+            <p class="text-gray-500 text-sm">
+              Aprobada el 22 de mayo de 2024 | Resolución N.º 019/2022 | 210 hs
+              reloj
+            </p>
+          </div>
+          <div>
+            <h3 class="text-xl font-semibold text-gray-800 mb-2">
+              Programación Web con JavaScript
+            </h3>
+            <p class="text-gray-600">UTN Facultad Regional Resistencia</p>
+            <p class="text-gray-500 text-sm">
+              Aprobado en junio de 2024 | Resolución n.º 213/2019
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+</Layout>
+
