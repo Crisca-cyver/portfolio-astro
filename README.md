@@ -9,13 +9,28 @@ Un portafolio web moderno y profesional desarrollado con **Astro** y **Tailwind 
 - **Rendimiento**: Construido con Astro para máxima velocidad
 - **SEO Optimizado**: Meta tags y estructura semántica
 - **Navegación Suave**: Transiciones y efectos hover elegantes
-- **Gradientes Atractivos**: Botones con gradientes modernos
+- **Iconos Profesionales**: Integración con Lucide Icons
+- **Sección de Tecnologías**: Showcase interactivo de habilidades técnicas
 
 ## 🛠️ Tecnologías Utilizadas
 
+### Frontend
 - **Astro** - Framework web moderno
 - **Tailwind CSS** - Framework de CSS utility-first
+- **Lucide Icons** - Librería de iconos SVG optimizados
 - **TypeScript** - Tipado estático
+
+### Tecnologías Destacadas en el Portfolio
+- **React** ⚛️ - Librería de JavaScript
+- **Astro** 🚀 - Framework web
+- **Sass** 🎨 - Preprocesador CSS
+- **Git** 🔀 - Control de versiones
+- **WordPress** 🌐 - CMS
+- **Node.js** 🟢 - Runtime de JavaScript
+- **PHP** 📄 - Lenguaje de programación
+- **Python** 🐍 - Lenguaje de programación
+
+### Deploy y Hosting
 - **Vercel** - Deploy y hosting
 
 ## 📁 Estructura del Proyecto
